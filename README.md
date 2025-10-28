@@ -4,14 +4,14 @@ AI-powered commit message generator for Git. Comitty analyzes your staged Git ch
 
 ## Features
 
-- > AI-powered commit message generation
-- =Ý Supports conventional and natural commit styles
-- =' Configurable AI providers (OpenRouter, OpenAI, Anthropic)
-- ¡ Fast startup with Bun runtime
-- <¯ Analyzes only staged changes (never unstaged)
-- =Ë Git context awareness (branch, recent commits, changed files)
--  Interactive editing and regeneration
-- ™ Global and project-specific configuration
+- **AI-powered** commit message generation
+- **Style support** for conventional and natural commit styles
+- **Multiple providers** - OpenRouter, OpenAI, Anthropic
+- **Fast startup** with Bun runtime
+- **Safe analysis** - only staged changes, never unstaged
+- **Smart context** - branch name, recent commits, changed files
+- **Interactive editing** and regeneration
+- **Flexible config** - global and project-specific settings
 
 ## Installation
 
@@ -123,10 +123,10 @@ comitty --provider openai
 1. **Generate**: Comitty analyzes staged changes and generates a commit message
 2. **Review**: See the generated message with context
 3. **Choose**:
-   -  Accept and commit
-   -  Edit the message
-   - = Regenerate a new message
-   - L Cancel
+   - [Accept] Accept and commit
+   - [Edit] Edit the message
+   - [Regenerate] Generate a new message
+   - [Cancel] Cancel operation
 
 ## Commit Styles
 
@@ -257,10 +257,10 @@ MIT License - see LICENSE file for details.
 
 ## Support
 
-- = Report bugs: https://github.com/your-username/comitty/issues
-- =¡ Feature requests: https://github.com/your-username/comitty/discussions
-- =Ö Documentation: https://github.com/your-username/comitty/wiki
+- Report bugs: https://github.com/your-username/comitty/issues
+- Feature requests: https://github.com/your-username/comitty/discussions
+- Documentation: https://github.com/your-username/comitty/wiki
 
 ---
 
-Made with d by the Comitty team
+Made with love by the Comitty team
