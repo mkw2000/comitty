@@ -125,10 +125,10 @@ comitty --provider openai
 1. **Generate**: Comitty analyzes staged changes and generates a commit message
 2. **Review**: See the generated message with context
 3. **Choose**:
-   - [Accept] Accept and commit
-   - [Edit] Edit the message
-   - [Regenerate] Generate a new message
-   - [Cancel] Cancel operation
+   - ✓ Accept and commit
+   - ✏️ Edit the message
+   - 🔄 Generate a new message
+   - ❌ Cancel operation
 
 ## Commit Styles
 
