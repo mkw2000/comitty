@@ -1,0 +1,8 @@
+{
+  "style": "conventional",
+  "provider": "openrouter",
+  "model": "anthropic/claude-3-haiku",
+  "autoCommit": false,
+  "explain": false,
+  "maxDiffSize": 15000
+}
