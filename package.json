@@ -1,15 +1,24 @@
 {
   "name": "comitty",
   "version": "1.0.0",
-  "description": "AI-powered commit message generator for Git",
+  "description": "AI-powered commit message generator for Git. Analyzes staged changes and generates high-quality commit messages using AI.",
   "main": "dist/cli.js",
   "bin": {
     "comitty": "dist/cli.js"
   },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE",
+    ".comittyrc.example"
+  ],
   "scripts": {
+    "prepublishOnly": "npm run build",
     "build": "bun build src/cli.ts --outdir dist --target node --minify",
     "dev": "bun run src/cli.ts",
-    "start": "node dist/cli.js"
+    "start": "node dist/cli.js",
+    "test": "node test-basic.js",
+    "prepack": "npm run build"
   },
   "keywords": [
     "git",
@@ -17,9 +26,27 @@
     "ai",
     "cli",
     "openrouter",
-    "typescript"
+    "openai",
+    "anthropic",
+    "typescript",
+    "commit-message",
+    "conventional-commits",
+    "automation",
+    "developer-tools"
   ],
-  "author": "Comitty CLI",
+  "author": {
+    "name": "Comitty Team",
+    "email": "comitty@example.com",
+    "url": "https://github.com/your-username/comitty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/comitty.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/comitty/issues"
+  },
+  "homepage": "https://github.com/your-username/comitty#readme",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.0.0",
@@ -32,5 +59,8 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

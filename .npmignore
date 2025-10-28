@@ -1,0 +1,56 @@
+# Source files (we only publish built dist/)
+src/
+tsconfig.json
+
+# Development files
+test-basic.js
+.gitignore
+.git/
+
+# Lock files
+bun.lockb
+package-lock.json
+yarn.lock
+
+# Config files that shouldn't be published
+.npmignore
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Temporary folders
+tmp/
+temp/

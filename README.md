@@ -20,7 +20,9 @@ AI-powered commit message generator for Git. Comitty analyzes your staged Git ch
 npm install -g comitty
 ```
 
-### Build from source
+> **Note**: Comitty is currently being prepared for npm publishing. For now, install from source.
+
+### Install from source
 ```bash
 git clone https://github.com/your-username/comitty.git
 cd comitty
