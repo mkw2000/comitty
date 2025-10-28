@@ -111,24 +111,24 @@ comitty --provider openai
 
 | Option | Description | Default |
 |--------|-------------|---------|
-| `-s, --style <style>` | Commit style (conventional|natural) | conventional |
-| `-p, --provider <provider>` | AI provider (openrouter|openai|anthropic) | openrouter |
+| `-s, --style <style>` | Commit message style | conventional |
+| `-p, --provider <provider>` | AI provider to use | openrouter |
 | `-m, --model <model>` | Specific AI model to use | provider default |
-| `-k, --api-key <key>` | API key (overrides env vars) | - |
+| `-k, --api-key <key>` | API key for the provider | - |
 | `--auto-commit` | Skip confirmation and auto-commit | false |
 | `--explain` | Include AI reasoning in output | false |
-| `-r, --regenerate` | Regenerate if previously generated | false |
-| `-h, --help` | Show help | - |
+| `-r, --regenerate` | Regenerate commit message | false |
+| `-h, --help` | Show help message | - |
 
 ### Interactive Workflow
 
 1. **Generate**: Comitty analyzes staged changes and generates a commit message
 2. **Review**: See the generated message with context
 3. **Choose**:
-   - ✓ Accept and commit
-   - ✏️ Edit the message
-   - 🔄 Generate a new message
-   - ❌ Cancel operation
+   - [Accept] Accept and commit
+   - [Edit] Edit the message
+   - [Regenerate] Generate a new message
+   - [Cancel] Cancel operation
 
 ## Commit Styles
 
