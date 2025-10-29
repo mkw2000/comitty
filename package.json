@@ -1,6 +1,7 @@
 {
   "name": "comitty",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "type": "module",
   "description": "AI-powered commit message generator for Git. Analyzes staged changes and generates high-quality commit messages using AI.",
   "main": "dist/cli.js",
   "bin": {

@@ -159,8 +159,6 @@ function handleError(error: unknown): void {
 }
 
 // Make CLI executable
-if (import.meta.url === `file://${process.argv[1]}`) {
-  program.parse();
-}
+program.parse();
 
 export { program };
